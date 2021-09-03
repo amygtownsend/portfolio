@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "watch": "TAILWIND_MODE=watch postcss src/css/tailwind.css -o public/build/tailwind.css --watch",
-    "build": "TAILWIND_MODE=build postcss src/css/tailwind.css -o public/build/tailwind.css"
+    "watch": "TAILWIND_MODE=watch postcss src/css/tailwind.css -o docs/build/tailwind.css --watch",
+    "build": "TAILWIND_MODE=build postcss src/css/tailwind.css -o docs/build/tailwind.css"
   },
   "dependencies": {},
   "devDependencies": {

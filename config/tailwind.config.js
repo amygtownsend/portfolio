@@ -5,7 +5,7 @@ const remPair = (px) => ({ [px]: rem(px) })
 module.exports = {
   mode: 'jit',
   purge: [
-    './public/**/*.html',
+    './docs/**/*.html',
     './src/**/*.js',
   ],
   darkMode: false, // or 'media' or 'class'
