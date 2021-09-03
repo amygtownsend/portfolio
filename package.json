@@ -4,12 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "postcss src/css/tailwind.css -o public/build/tailwind.css"
+    "watch": "TAILWIND_MODE=watch postcss src/css/tailwind.css -o public/build/tailwind.css --watch",
+    "build": "TAILWIND_MODE=build postcss src/css/tailwind.css -o public/build/tailwind.css"
   },
-  "dependencies": {
-    "@hotwired/turbo": "^7.0.0-rc.2",
-    "stimulus": "^2.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.3.3",
     "postcss": "^8.3.6",
